@@ -17,8 +17,8 @@
 import * as necc from '@noble/secp256k1';
 import { hmac } from '@noble/hashes/hmac';
 import { sha256 } from '@noble/hashes/sha256';
-import { Buffer } from 'buffer';
-console.log(Buffer)
+// import { Buffer } from 'buffer';
+// console.log(Buffer)
 necc.utils.hmacSha256Sync = (key, ...msgs) =>
   hmac(sha256, key, necc.utils.concatBytes(...msgs));
 necc.utils.sha256Sync = (...msgs) => sha256(necc.utils.concatBytes(...msgs));
