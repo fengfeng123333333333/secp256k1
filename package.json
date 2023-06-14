@@ -38,7 +38,8 @@
     "rollup": "^3.9.1",
     "rollup-plugin-commonjs": "^10.1.0",
     "tap-summary": "^4.0.0",
-    "tape": "^5.6.1"
+    "tape": "^5.6.1",
+    "buffer": "^6.0.3"
   },
   "dependencies": {
     "@noble/hashes": "^1.1.5",
